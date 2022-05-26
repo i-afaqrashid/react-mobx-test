@@ -1,3 +1,4 @@
+
 export type User = {
   id: number;
   userName: string;
@@ -5,3 +6,7 @@ export type User = {
   lastLogin: Date;
   enabled: boolean;
 };
+
+export interface GridCell {
+  dataItem: User;
+}

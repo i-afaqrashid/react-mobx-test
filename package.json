@@ -18,6 +18,7 @@
     "@progress/kendo-react-treeview": "^5.3.0",
     "@progress/kendo-theme-default": "^5.4.1",
     "@progress/kendo-theme-material": "^5.4.1",
+    "@telerik/kendo-intl": "^2.3.1",
     "@types/kendo-ui": "^2022.2.0",
     "mobx": "^6.0.4",
     "mobx-react-lite": "^3.1.6",
