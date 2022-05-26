@@ -11,4 +11,9 @@ export class UserStore {
   @action.bound setUsers(usersList: User[]) {
     this.users = usersList;
   }
+
+  @action.bound updateUser(user: User) {
+    const index = this.users.findIndex((u) => u.id === user.id);
+    this.users[index] = user;
+  }
 }
